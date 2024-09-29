@@ -1,7 +1,7 @@
-streamlit
 opencv-python
 numpy
 Pillow
 scikit-learn 
 pandas 
 joblib
+streamlit
