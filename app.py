@@ -8,9 +8,6 @@ import os
 import joblib
 knn_model = joblib.load('knn_model.pkl')
 
-import cv2
-import os
-
 # Đường dẫn tới file Haar Cascade
 face_cascade_path = './haarcascade_frontalface_alt.xml'
 eye_cascade_path = './haarcascade_eye_tree_eyeglasses.xml'
