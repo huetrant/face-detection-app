@@ -4,7 +4,6 @@ import numpy as np
 from PIL import Image
 import os
 # Tải mô hình kNN đã huấn luyện
-# Giả sử bạn đã lưu mô hình kNN vào file 'knn_model.pkl'
 import joblib
 knn_model = joblib.load('knn_model.pkl')
 
